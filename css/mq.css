@@ -1,0 +1,134 @@
+
+/* Hamburger Menu */
+@media only screen and (max-width: 991px){
+    .hide-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px){
+                    /* Hide overlay navigation link on mobile */
+    .hide-desktop, .overlay{
+        display: none !important;
+    }
+}
+
+
+
+/* Padding Mobile */
+@media only screen and (max-width: 991px){
+    .header, .projects, .rates, .contact, .footer, .success{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+
+/* Containers */
+@media only screen and (min-width: 576px){
+    .container{
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+
+    /* About Me */
+    .about-me-content-item{
+        font-size: 18px;
+        max-width: 773px;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     /* Project */
+     .title-section p{
+        font-size: 18px;
+        max-width: 773px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+    /* Project */
+    .project-grid-container, .sat-grid-container, .footer-grid-container{
+        grid-column-gap:15px;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+
+    /* Hero Grid        Contact        */
+    .grid-container-1, .contact-grid-container{
+        grid-column-gap:15px;
+        grid-template-columns: auto auto;
+    }
+
+    .hero-content{
+        margin-top: 180px;
+    }
+
+    /* About Me */
+    .about-me{
+        background-size: contain;
+    }
+
+    /*Skill and Tools    Footer  */
+    .sat-grid-container, .footer-grid-container{
+        grid-column-gap:15px;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    /* Project */
+    .project-grid-container{
+        grid-column-gap:15px;
+        grid-template-columns: auto auto auto;
+    }
+
+    /* Rates Form */
+    .rates-grid-form-container{
+        width: 773px;
+        grid-column-gap:15px;
+        grid-template-columns: auto auto;
+        margin: auto auto;
+    }
+
+    .rates-grid-form-container-text-area{
+        width: 773px;
+        margin: auto auto;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+
+    /* Reset h1 tag to 48px */
+    h1{
+        font-size: 48px !important;
+    }
+
+    /* Project */
+    .project-grid-container{
+        grid-column-gap:15px;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
